@@ -1,0 +1,579 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LocaHouse</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="image/favicon.svg" type="image/svg+xml" sizes="any">
+</head>
+<body>
+    <header>
+      <nav style="display: flex; align-items: center; justify-content: space-between;"> 
+        <div style="flex: 1;">
+            <img src="image/logo.svg" alt="Logo" style="height: 100px;"> <!-- Logo placé à gauche -->
+        </div>
+        <h1 style="flex: 2; text-align: center;">
+                    Détails des Voitures
+        </h1>
+        <div style="flex: 1; text-align: right;">
+            <a href="index.html">Accueil</a>
+            <a href="maison.html">Maison</a>
+            <a href="contact.html">Contact</a>
+        </div>
+    </nav>
+    </header>
+    <section id="voiture-details">
+        <article>
+            <h2>Voiture: <span id="car-name1">KIA Sorento</span></h2>
+            <div class="car-gallery">
+                <img src="image/d/dv 21.jpg" alt="KIA Sorento">
+                <img src="image/d/dv 25.jpg" alt="KIA Sorento">
+                <img src="image/d/dv 24.jpg" alt="KIA Sorento">
+            </div>
+            <div class="car-details">
+                <h3>Informations</h3>
+                <p><strong>Marque:</strong> KIA</p>
+                <p><strong>Modèle:</strong> Sorento</p>
+                <p><strong>Année:</strong> 2024</p>
+                <p><strong>Prix:</strong> 40.000</p>
+                <p><strong>Description:</strong> Voyagez avec élégance.</p>
+            </div>
+            <button onclick="window.location.href='reservation.html?voiture=KIA Sorento'">Réserver</button>
+        </article>
+        <article>
+            <h2>Voiture: <span id="car-name2">Mercedes Benz</span></h2>
+            <div class="car-gallery">
+                <img src="image/d/dv 29.jpeg" alt=" Mercedes Benz">
+                <img src="image/d/dv 9.png" alt="Mercedes Benz">
+                <img src="image/d/dv 10.png" alt="Mercedes Benz">
+            </div>
+            <div class="car-details">
+                <h3>Informations</h3>
+                <p><strong>Marque:</strong> Mercedes</p>
+                <p><strong>Modèle:</strong> Gle </p>
+                <p><strong>Année:</strong> 2023</p>
+                <p><strong>Prix:</strong> 30.000</p>
+                <p><strong>Description:</strong> Idéal pour la ville.</p>
+            </div>
+            <button onclick="window.location.href='reservation.html?voiture=Mercedes GLE'">Réserver</button>
+        </article>
+        <article>
+            <h2>Voiture: <span id="car-name3">Toyota C-HR</span></h2>
+            <div class="car-gallery">
+                <img src="image/d/dv 8.png" alt="Toyota C-HR">
+                <img src="image/car 3.png" alt="Toyota C-HR">
+                <img src="image/car 3.png" alt="Toyota C-HR">
+            </div>
+            <div class="car-details">
+                <h3>Informations</h3>
+                <p><strong>Marque:</strong> Toyota</p>
+                <p><strong>Modèle:</strong> C-HR</p>
+                <p><strong>Année:</strong> 2019</p>
+                <p><strong>Prix:</strong> 20.000</p>
+                <p><strong>Description:</strong> Parfaite pour les sensations .</p>
+            </div>
+            <button onclick="window.location.href='reservation.html?voiture=Toyota C-HR '">Réserver</button>
+        </article>
+        <article>
+            <h2>Voiture: <span id="car-name4">Hyundai</span></h2>
+            <div class="car-gallery">
+                <img src="image/car 4.png" alt="Hyundai">
+                <img src="image/car 4.png" alt="Hyundai">
+                 <img src="image/car 4.png" alt="Hyundai">
+            </div>
+            <div class="car-details">
+                <h3>Informations</h3>
+                <p><strong>Marque:</strong> Hyundai</p>
+                <p><strong>Modèle:</strong> Civic</p>
+                <p><strong>Année:</strong> 2022</p>
+                <p><strong>Prix:</strong> 20.000</p>
+                <p><strong>Description:</strong> Un classique intemporel.</p>
+            </div>
+            <button onclick="window.location.href='reservation.html?voiture=Hyundai Civic'">Réserver</button>
+        </article>
+        <article>
+            <h2>Voiture: <span id="car-name5">Toyota CHR</span></h2>
+            <div class="car-gallery">
+                <img src="image/car 5.png" alt="Toyota CHR ">
+                <img src="image/car 5.png" alt="Toyota CHR">
+                 <img src="image/car 5.png" alt="Toyota CHR">
+            </div>
+            <div class="car-details">
+                <h3>Informations</h3>
+                <p><strong>Marque:</strong> Toyota </p>
+                <p><strong>Modèle:</strong> CHR</p>
+                <p><strong>Année:</strong> 2023</p>
+                <p><strong>Prix:</strong> 30.000</p>
+                <p><strong>Description:</strong> Performances exceptionnelles.</p>
+            </div>
+            <button onclick="window.location.href='reservation.html?voiture=Toyota C-HR'">Réserver</button>
+        </article>
+        <article>
+            <h2>Voiture: KIA <span id="car-name6"></span></h2>
+            <div class="car-gallery">
+                <img src="image/d/dv 19.png" alt="KIA">
+                <img src="image/d/dv 13.png" alt="KIA">
+                <img src="image/d/dv 14.png" alt="KIA">
+            </div>
+            <div class="car-details">
+                <h3>Informations</h3>
+                <p><strong>Marque:</strong> KIA</p>
+                <p><strong>Modèle:</strong> 4 place</p>
+                <p><strong>Année:</strong> 2019</p>
+                <p><strong>Prix:</strong> 20.000</p>
+                <p><strong>Description:</strong> Confort et style réunis.</p>
+            </div>
+            <button onclick="window.location.href='reservation.html?voiture=KIA 4 palce'">Réserver</button>
+        </article>
+         <article>
+            <h2>Voiture: KIA <span id="car-name6"></span></h2>
+            <div class="car-gallery">
+                <img src="image/d/dv 19.png" alt="KIA">
+                <img src="image/d/dv 13.png" alt="KIA">
+                <img src="image/d/dv 14.png" alt="KIA">
+            </div>
+            <div class="car-details">
+                <h3>Informations</h3>
+                <p><strong>Marque:</strong> KIA</p>
+                <p><strong>Modèle:</strong> 4 place</p>
+                <p><strong>Année:</strong> 2019</p>
+                <p><strong>Prix:</strong> 20.000</p>
+                <p><strong>Description:</strong> Confort et style réunis.</p>
+            </div>
+            <button onclick="window.location.href='reservation.html?voiture=KIA 4 palce'">Réserver</button>
+        </article>
+        <article>
+            <h2>Voiture:KIA Sorento <span id="car-name8"></span></h2>
+            <div class="car-gallery">
+                <img src="image/d/dv 13.png" alt="Sorento">
+                <img src="image/d/dv 14.png" alt="Sorento">
+                 <img src="image/d/dv 20.png" alt="Sorento">
+            </div>
+            <div class="car-details">
+                <h3>Informations</h3>
+                <p><strong>Marque:</strong> KIA </p>
+                <p><strong>Modèle:</strong> Sorento</p>
+                <p><strong>Année:</strong> 2018</p>
+                <p><strong>Prix:</strong> 25.000</p>
+                <p><strong>Description:</strong> Économie de carburant et style.</p>
+            </div>
+            <button onclick="window.location.href='reservation.html?voiture=KIA Sorento '">Réserver</button>
+        </article>
+        <article>
+            <h2>Voiture: <span id="car-name9">KIA Sorento </span></h2>
+            <div class="car-gallery">
+                <img src="image/d/dv 13.png" alt="Sorento">
+                <img src="image/d/dv 14.png" alt="Sorento">
+                 <img src="image/d/dv 20.png" alt="Sorento">
+            </div>
+            <div class="car-details">
+                <h3>Informations</h3>
+                <p><strong>Marque:</strong> KIA</p>
+                <p><strong>Modèle:</strong> Sorento 7 place</p>
+                <p><strong> Année:</strong>2019</p>
+                <p><strong>Prix:</strong> 30.000</p>
+                 <p><strong>Description:</strong> Économie de carburant et style.</p>
+            </div>
+            <button onclick="window.location.href='reservation.html?voiture=KIA Sorento '">Réserver</button>
+        </article>
+          <section id="voiture-details">
+        <article>
+            <h2>Voiture: <span id="car-name1">BME</span></h2>
+            <div class="car-gallery">
+                <img src="image/car 11.png" alt="BMW ">
+                <img src="image/car 12.png" alt="BMW">
+                <img src="image/car 11.png" alt="BMW">
+            </div>
+            <div class="car-details">
+                <h3>Informations</h3>
+                <p><strong>Marque:</strong> BMW</p>
+                <p><strong>Modèle:</strong> M5</p>
+                <p><strong>Année:</strong> 2022</p>
+                <p><strong>Prix:</strong> 20.000</p>
+                <p><strong>Description:</strong> Voyagez avec élégance.</p>
+            </div>
+            <button onclick="window.location.href='reservation.html?voiture=BMW M5'">Réserver</button>
+        </article>
+        <article>
+            <h2>Voiture: <span id="car-name1">BME</span></h2>
+            <div class="car-gallery">
+                <img src="image/car 11.png" alt="BMW ">
+                <img src="image/car 12.png" alt="BMW">
+                <img src="image/car 11.png" alt="BMW">
+            </div>
+            <div class="car-details">
+                <h3>Informations</h3>
+                <p><strong>Marque:</strong> BMW</p>
+                <p><strong>Modèle:</strong> M3</p>
+                <p><strong>Année:</strong> 2023</p>
+                <p><strong>Prix:</strong> 35.000</p>
+                <p><strong>Description:</strong> Voyagez avec élégance.</p>
+            </div>
+            <button onclick="window.location.href='reservation.html?voiture=BMW M3'">Réserver</button>
+        </article>
+        <article>
+            <h2>Voiture: <span id="car-name1">BME</span></h2>
+            <div class="car-gallery">
+                <img src="image/car 11.png" alt="BMW ">
+                <img src="image/car 12.png" alt="BMW">
+                <img src="image/car 11.png" alt="BMW">
+            </div>
+            <div class="car-details">
+                <h3>Informations</h3>
+                <p><strong>Marque:</strong> BMW</p>
+                <p><strong>Modèle:</strong> M6</p>
+                <p><strong>Année:</strong> 2021</p>
+                <p><strong>Prix:</strong> 25.000</p>
+                <p><strong>Description:</strong> Voyagez avec élégance.</p>
+            </div>
+            <button onclick="window.location.href='reservation.html?voiture=BMW M6'">Réserver</button>
+        </article>
+        <article>
+            <h2>Voiture: <span id="car-name4">Audi</span></h2>
+            <div class="car-gallery">
+                <img src="image/car 14.png" alt="Audi">
+                <img src="image/car 14.png" alt="Audi">
+                 <img src="image/car 14.png" alt="Audi">
+            </div>
+            <div class="car-details">
+                <h3>Informations</h3>
+                <p><strong>Marque:</strong> Audi</p>
+                <p><strong>Modèle:</strong> Q5</p>
+                <p><strong>Année:</strong> 2020</p>
+                <p><strong>Prix:</strong> 28.000</p>
+                <p><strong>Description:</strong> Un classique intemporel.</p>
+            </div>
+            <button onclick="window.location.href='reservation.html?voiture=Audi Q5'">Réserver</button>
+        </article>
+        <article>
+            <h2>Voiture: <span id="car-name5">Mercedes</span></h2>
+            <div class="car-gallery">
+                <img src="image/d/dv 9.png" alt="Mercedes ">
+                <img src="image/d/dv 10.png" alt="Mercedes">
+                 <img src="image/d/dv 26.jpeg" alt="Mercedes">
+            </div>
+            <div class="car-details">
+                <h3>Informations</h3>
+                <p><strong>Marque:</strong> Mercedes </p>
+                <p><strong>Modèle:</strong> Gle</p>
+                <p><strong>Année:</strong> 2020</p>
+                <p><strong>Prix:</strong> 28.000</p>
+                <p><strong>Description:</strong> Performances exceptionnelles.</p>
+            </div>
+            <button onclick="window.location.href='reservation.html?voiture=Mercedes GLE'">Réserver</button>
+        </article>
+         <section id="voiture-details">
+        <article>
+            <h2>Voiture: <span id="car-name1">KIA Sorento</span></h2>
+            <div class="car-gallery">
+                <img src="image/d/dv 21.jpg" alt="KIA Sorento">
+                <img src="image/d/dv 25.jpg" alt="KIA Sorento">
+                <img src="image/d/dv 24.jpg" alt="KIA Sorento">
+            </div>
+            <div class="car-details">
+                <h3>Informations</h3>
+                <p><strong>Marque:</strong> KIA</p>
+                <p><strong>Modèle:</strong> Sorento</p>
+                <p><strong>Année:</strong> 2024</p>
+                <p><strong>Prix:</strong> 40.000</p>
+                <p><strong>Description:</strong> Voyagez avec élégance.</p>
+            </div>
+            <button onclick="window.location.href='reservation.html?voiture=KIA Sorento'">Réserver</button>
+        </article>
+        <article>
+            <h2>Voiture: <span id="car-name2">Mercedes Benz</span></h2>
+            <div class="car-gallery">
+                <img src="image/d/dv 29.jpeg" alt=" Mercedes Benz">
+                <img src="image/d/dv 9.png" alt="Mercedes Benz">
+                <img src="image/d/dv 10.png" alt="Mercedes Benz">
+            </div>
+            <div class="car-details">
+                <h3>Informations</h3>
+                <p><strong>Marque:</strong> Mercedes</p>
+                <p><strong>Modèle:</strong> Gle </p>
+                <p><strong>Année:</strong> 2023</p>
+                <p><strong>Prix:</strong> 30.000</p>
+                <p><strong>Description:</strong> Idéal pour la ville.</p>
+            </div>
+            <button onclick="window.location.href='reservation.html?voiture=Mercedes GLE'">Réserver</button>
+        </article>
+        <article>
+            <h2>Voiture: <span id="car-name3">Toyota C-HR</span></h2>
+            <div class="car-gallery">
+                <img src="image/d/dv 8.png" alt="Toyota C-HR">
+                <img src="image/car 3.png" alt="Toyota C-HR">
+                <img src="image/car 3.png" alt="Toyota C-HR">
+            </div>
+            <div class="car-details">
+                <h3>Informations</h3>
+                <p><strong>Marque:</strong> Toyota</p>
+                <p><strong>Modèle:</strong> C-HR</p>
+                <p><strong>Année:</strong> 2019</p>
+                <p><strong>Prix:</strong> 20.000</p>
+                <p><strong>Description:</strong> Parfaite pour les sensations .</p>
+            </div>
+            <button onclick="window.location.href='reservation.html?voiture=Toyota C-HR '">Réserver</button>
+        </article>
+        <article>
+            <h2>Voiture: <span id="car-name4">Hyundai</span></h2>
+            <div class="car-gallery">
+                <img src="image/car 4.png" alt="Hyundai">
+                <img src="image/car 4.png" alt="Hyundai">
+                 <img src="image/car 4.png" alt="Hyundai">
+            </div>
+            <div class="car-details">
+                <h3>Informations</h3>
+                <p><strong>Marque:</strong> Hyundai</p>
+                <p><strong>Modèle:</strong> Civic</p>
+                <p><strong>Année:</strong> 2022</p>
+                <p><strong>Prix:</strong> 20.000</p>
+                <p><strong>Description:</strong> Un classique intemporel.</p>
+            </div>
+            <button onclick="window.location.href='reservation.html?voiture=Hyundai Civic'">Réserver</button>
+        </article>
+
+        <article>
+            <h2>Voiture: <span id="car-name5">Toyota CHR</span></h2>
+            <div class="car-gallery">
+                <img src="image/car 5.png" alt="Toyota CHR ">
+                <img src="image/car 5.png" alt="Toyota CHR">
+                 <img src="image/car 5.png" alt="Toyota CHR">
+            </div>
+            <div class="car-details">
+                <h3>Informations</h3>
+                <p><strong>Marque:</strong> Toyota </p>
+                <p><strong>Modèle:</strong> CHR</p>
+                <p><strong>Année:</strong> 2023</p>
+                <p><strong>Prix:</strong> 30.000</p>
+                <p><strong>Description:</strong> Performances exceptionnelles.</p>
+            </div>
+            <button onclick="window.location.href='reservation.html?voiture=Toyota C-HR'">Réserver</button>
+        </article>
+
+        <article>
+            <h2>Voiture: KIA <span id="car-name6"></span></h2>
+            <div class="car-gallery">
+                <img src="image/d/dv 19.png" alt="KIA">
+                <img src="image/d/dv 13.png" alt="KIA">
+                <img src="image/d/dv 14.png" alt="KIA">
+            </div>
+            <div class="car-details">
+                <h3>Informations</h3>
+                <p><strong>Marque:</strong> KIA</p>
+                <p><strong>Modèle:</strong> 4 place</p>
+                <p><strong>Année:</strong> 2019</p>
+                <p><strong>Prix:</strong> 20.000</p>
+                <p><strong>Description:</strong> Confort et style réunis.</p>
+            </div>
+            <button onclick="window.location.href='reservation.html?voiture=KIA 4 palce'">Réserver</button>
+        </article>
+
+         <article>
+            <h2>Voiture: KIA <span id="car-name6"></span></h2>
+            <div class="car-gallery">
+                <img src="image/d/dv 19.png" alt="KIA">
+                <img src="image/d/dv 13.png" alt="KIA">
+                <img src="image/d/dv 14.png" alt="KIA">
+            </div>
+            <div class="car-details">
+                <h3>Informations</h3>
+                <p><strong>Marque:</strong> KIA</p>
+                <p><strong>Modèle:</strong> 4 place</p>
+                <p><strong>Année:</strong> 2019</p>
+                <p><strong>Prix:</strong> 20.000</p>
+                <p><strong>Description:</strong> Confort et style réunis.</p>
+            </div>
+            <button onclick="window.location.href='reservation.html?voiture=KIA 4 palce'">Réserver</button>
+        </article>
+
+        <article>
+            <h2>Voiture:KIA Sorento <span id="car-name8"></span></h2>
+            <div class="car-gallery">
+                <img src="image/d/dv 13.png" alt="Sorento">
+                <img src="image/d/dv 14.png" alt="Sorento">
+                 <img src="image/d/dv 20.png" alt="Sorento">
+            </div>
+            <div class="car-details">
+                <h3>Informations</h3>
+                <p><strong>Marque:</strong> KIA </p>
+                <p><strong>Modèle:</strong> Sorento</p>
+                <p><strong>Année:</strong> 2018</p>
+                <p><strong>Prix:</strong> 25.000</p>
+                <p><strong>Description:</strong> Économie de carburant et style.</p>
+            </div>
+            <button onclick="window.location.href='reservation.html?voiture=KIA Sorento '">Réserver</button>
+        </article>
+
+        <article>
+            <h2>Voiture: <span id="car-name9">KIA Sorento </span></h2>
+            <div class="car-gallery">
+                <img src="image/d/dv 13.png" alt="Sorento">
+                <img src="image/d/dv 14.png" alt="Sorento">
+                 <img src="image/d/dv 20.png" alt="Sorento">
+            </div>
+            <div class="car-details">
+                <h3>Informations</h3>
+                <p><strong>Marque:</strong> KIA</p>
+                <p><strong>Modèle:</strong> Sorento 7 place</p>
+                <p><strong> Année:</strong>2019</p>
+                <p><strong>Prix:</strong> 30.000</p>
+                 <p><strong>Description:</strong> Économie de carburant et style.</p>
+            </div>
+            <button onclick="window.location.href='reservation.html?voiture=KIA Sorento '">Réserver</button>
+        </article>
+
+          <section id="voiture-details">
+        <article>
+            <h2>Voiture: <span id="car-name1">BME</span></h2>
+            <div class="car-gallery">
+                <img src="image/car 11.png" alt="BMW ">
+                <img src="image/car 12.png" alt="BMW">
+                <img src="image/car 11.png" alt="BMW">
+            </div>
+            <div class="car-details">
+                <h3>Informations</h3>
+                <p><strong>Marque:</strong> BMW</p>
+                <p><strong>Modèle:</strong> M5</p>
+                <p><strong>Année:</strong> 2022</p>
+                <p><strong>Prix:</strong> 20.000</p>
+                <p><strong>Description:</strong> Voyagez avec élégance.</p>
+            </div>
+            <button onclick="window.location.href='reservation.html?voiture=BMW M5'">Réserver</button>
+        </article>
+
+        <article>
+            <h2>Voiture: <span id="car-name1">BME</span></h2>
+            <div class="car-gallery">
+                <img src="image/car 11.png" alt="BMW ">
+                <img src="image/car 12.png" alt="BMW">
+                <img src="image/car 11.png" alt="BMW">
+            </div>
+            <div class="car-details">
+                <h3>Informations</h3>
+                <p><strong>Marque:</strong> BMW</p>
+                <p><strong>Modèle:</strong> M3</p>
+                <p><strong>Année:</strong> 2023</p>
+                <p><strong>Prix:</strong> 35.000</p>
+                <p><strong>Description:</strong> Voyagez avec élégance.</p>
+            </div>
+            <button onclick="window.location.href='reservation.html?voiture=BMW M3'">Réserver</button>
+        </article>
+        
+        <article>
+            <h2>Voiture: <span id="car-name1">BME</span></h2>
+            <div class="car-gallery">
+                <img src="image/car 11.png" alt="BMW ">
+                <img src="image/car 12.png" alt="BMW">
+                <img src="image/car 11.png" alt="BMW">
+            </div>
+            <div class="car-details">
+                <h3>Informations</h3>
+                <p><strong>Marque:</strong> BMW</p>
+                <p><strong>Modèle:</strong> M6</p>
+                <p><strong>Année:</strong> 2021</p>
+                <p><strong>Prix:</strong> 25.000</p>
+                <p><strong>Description:</strong> Voyagez avec élégance.</p>
+            </div>
+            <button onclick="window.location.href='reservation.html?voiture=BMW M6'">Réserver</button>
+        </article>
+        
+        <article>
+            <h2>Voiture: <span id="car-name4">Ford</span></h2>
+            <div class="car-gallery">
+                <img src="image/d/dv 16.png" alt="Ford">
+                <img src="image/d/dv 17.png" alt="Ford">
+                 <img src="image/d/dv 18.png" alt="Ford">
+            </div>
+            <div class="car-details">
+                <h3>Informations</h3>
+                <p><strong>Marque:</strong> Ford</p>
+                <p><strong>Modèle:</strong> Explor</p>
+                <p><strong>Année:</strong> 2022</p>
+                <p><strong>Prix:</strong> 26.000</p>
+                <p><strong>Description:</strong> Un classique intemporel.</p>
+            </div>
+            <button onclick="window.location.href='reservation.html?voiture=Fored explor'">Réserver</button>
+        </article>
+
+        <article>
+            <h2>Voiture: <span id="car-name5">Mercedes</span></h2>
+            <div class="car-gallery">
+                <img src="image/d/dv 7.png" alt="Jeep ">
+                <img src="image/d/dv 1.png" alt="Jeep">
+                 <img src="image/d/dv 7.png" alt="Jeep">
+            </div>
+            <div class="car-details">
+                <h3>Informations</h3>
+                <p><strong>Marque:</strong> Jeep </p>
+                <p><strong>Modèle:</strong> rubicon</p>
+                <p><strong>Année:</strong> 2020</p>
+                <p><strong>Prix:</strong> 28.000</p>
+                <p><strong>Description:</strong> Performances exceptionnelles.</p>
+            </div>
+            <button onclick="window.location.href='reservation.html?voiture=Jeep rubicon'">Réserver</button>
+        </article>
+          <article>
+            <h2>Voiture: <span id="car-name4">Toyota Prado</span></h2>
+            <div class="car-gallery">
+                <img src="image/d/dv 6.png" alt="Toyota Prado">
+                <img src="image/d/dv 5.png" alt="Toyota Prado">
+                 <img src="image/d/dv 4.png" alt="Toyota Prado">
+            </div>
+            <div class="car-details">
+                <h3>Informations</h3>
+                <p><strong>Marque:</strong> Toyota </p>
+                <p><strong>Modèle:</strong> Prado</p>
+                <p><strong>Année:</strong> 2021</p>
+                <p><strong>Prix:</strong> 30.000</p>
+                <p><strong>Description:</strong> Un classique intemporel.</p>
+            </div>
+            <button onclick="window.location.href='reservation.html?voiture=Toyota Prado'">Réserver</button>
+        </article>
+
+        <article>
+            <h2>Voiture: <span id="car-name5">Mercedes</span></h2>
+            <div class="car-gallery">
+                <img src="image/d/dv 27.jpeg" alt="Mercedes ">
+                <img src="image/d/dv 28.jpeg" alt="Mercedes">
+                 <img src="image/d/dv 29.jpeg" alt="Mercedes">
+            </div>
+            <div class="car-details">
+                <h3>Informations</h3>
+                <p><strong>Marque:</strong> Mercedes </p>
+                <p><strong>Modèle:</strong> coupé</p>
+                <p><strong>Année:</strong> 2022</p>
+                <p><strong>Prix:</strong> 25.000</p>
+                <p><strong>Description:</strong> Performances exceptionnelles.</p>
+            </div>
+            <button onclick="window.location.href='reservation.html?voiture=Mercedes coupé'">Réserver</button>
+        </article>      
+        <footer>
+            <div class="footer-content">
+                <div class="footer-section about">
+                    <h2>À propos de nous</h2>
+                    <p>
+                        Nous sommes une société spécialisée dans la location de voitures et de villas de luxe et de qualité. 
+                        Faites confiance à notre service pour vos logement déplacements.
+                    </p>
+                </div>
+                <div class="footer-section contact">
+                    <h2>Contactez-nous</h2>
+                    <p>Adresse: Rue 50 Adidogomé, 2004 Togo, Lomé</p>
+                    <p>Téléphone: +228 70193609</p>
+                    <p>Email:  clementjohnson476@gmail.com</p>
+                </div>
+                <div class="footer-section social">
+                    <h2>Suivez-nous</h2>
+                    <a href="#">Facebook</a> | 
+                    <a href="#">Instagram</a> | 
+                    <a href="#">Twitter</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                &copy; 2024 LocaHouse.com | Tous droits réservés
+            </div>
+        </footer>
+        
+      </body>
+</html>

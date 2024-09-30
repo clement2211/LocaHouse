@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LocaHouse</title>
+    <link rel="icon" href="image/favicon.svg" type="image/svg+xml" sizes="any">
+    <link rel="icon" href="image/favicon.png" sizes="32x32" type="image/png">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav style="display: flex; align-items: center; justify-content: space-between;"> 
+        <div style="flex: 1;">
+            <img src="image/logo.svg" alt="Logo" style="height: 100px;"> <!-- Logo placé à gauche -->
+        </div>
+        <h1 style="flex: 2; text-align: center;">
+            Voiture
+        </h1>
+        <div style="flex: 1; text-align: right;">
+            <a href="index.html">Accueil</a>
+            <a href="maison.html">Maison</a>
+            <a href="contact.html">Contact</a>
+        </div>
+    </nav>
+    <section id="cars">
+        <h2>Nos Voitures</h2>
+        <div class="car-list">
+            <div class="car">
+                <img src="image/car 1.jpg" alt="Voiture 1">
+                <h3>Voiture 1</h3>
+                <p>Modèle: Kia Sorento</p>
+                <p>7 Place</p>
+                <p>Année: 2024</p>
+                <p>Prix: 40.000 fcfa/ jour</p>
+                <button onclick="window.location.href='détails-voiture.html?car=Voiture 1'">Voir les détails</button>
+            <button onclick="window.location.href='reservation.html?voiture=KIA Sorento 7P 2024'">Réserver</button>
+            </div>
+            <div class="car">
+                <img src="image/car 2.jpeg" alt="Voiture 2">
+                <h3>Voiture 2</h3>
+                <p>Modèle: Mercedes Benz</p>
+                <p>4 Place</p>
+                <p>Année: 2023</p>
+                <p>Prix: 30.000 fcfa/ jour</p>
+                <button onclick="window.location.href='détails-voiture.html?car=Voiture 2'">Voir les détails</button>
+            <button onclick="window.location.href='reservation.html?voiture=Mercedes 4P 2023'">Réserver</button>
+            </div>
+            <div class="car">
+                <img src="image/car 3.png" alt="Voiture 3">
+                <h3>Voiture 3</h3>
+                <p>Modèle: Toyota C-HR</p>
+                <p>4 Place</p>
+                <p>Année: 2019</p>
+                <p>Prix: 20.000 fcfa/ jour</p>
+                <button onclick="window.location.href='détails-voiture.html?car=Voiture 3'">Voir les détails</button>
+                <button onclick="window.location.href='reservation.html?voiture=Toyota CHR 4P 2019'">Réserver</button>
+            </div>
+            <div class="car">
+                <img src="image/car 4.png" alt="Voiture 4">
+                <h3>Voiture 4</h3>
+                <p>Modèle: Hyundai</p>
+                <p>4 Place</p>
+                <p>Année: 2022</p>
+                <p>Prix: 20.000 fcfa/ jour</p>
+                <button onclick="window.location.href='détails-voiture.html?car=Voiture 4'">Voir les détails</button>
+            <button onclick="window.location.href='reservation.html?voiture=Hyundai 4P 2022'">Réserver</button>
+            </div>
+            <div class="car">
+                <img src="image/car 5.png" alt="Voiture 5">
+                <h3>Voiture 5</h3>
+                <p>Modèle: Toyota</p>
+                <p>4 place</p>
+                <p>Année: 2023</p>
+                <p>Prix: 30.000 fcfa/ jour</p>
+                <button onclick="window.location.href='détails-voiture.html?car=Voiture 5'">Voir les détails</button>
+            <button onclick="window.location.href='reservation.html?voiture=Toyota 4P 2023'">Réserver</button>
+            </div>
+            <div class="car">
+                <img src="image/car 6.png" alt="Voiture 6">
+                <h3>Voiture 6</h3>
+                <p>Modèle: Kia</p>
+                <p>4 Place</p>
+                <p>Année: 2019</p>
+                <p>Prix: 20.000 fcfa/ jour</p>
+                <button onclick="window.location.href='détails-voiture.html?car=Voiture 6'">Voir les détails</button>
+                <button onclick="window.location.href='reservation.html?voiture=KIA 4P 2019'">Réserver</button>
+            </div>
+            <div class="car">
+                <img src="image/car 7.png" alt="Voiture 7">
+                <h3>Voiture 7</h3>
+                <p>Modèle: Kia</p>
+                <p>4 Place</p>
+                <p>Année: 2019</p>
+                <p>Prix: 20.000 fcfa/ jour</p>
+                <button onclick="window.location.href='détails-voiture.html?car=Voiture 7'">Voir les détails</button>
+                <button onclick="window.location.href='reservation.html?voiture=KIA 4P 2019'">Réserver</button>
+            </div>
+            <div class="car">
+                <img src="image/car 8.png" alt="Voiture 8">
+                <h3>Voiture 8</h3>
+                <p>Modèle: Kia Sorenta</p>
+                <p>5 Place</p>
+                <p>Année: 2018</p>
+                <p>Prix: 25.000 fcfa/ jour</p>
+                <button onclick="window.location.href='détails-voiture.html?car=Voiture 8'">Voir les détails</button>
+                <button onclick="window.location.href='reservation.html?voiture=KIA 5P 2018'">Réserver</button>
+            </div>
+            <div class="car">
+                <img src="image/car 9.png" alt="Voiture 9">
+                <h3>Voiture 9</h3>
+                <p>Modèle: Kia Sorento</p>
+                <p>7 Place</p>
+                <p>Année: 2019</p>
+                <p>Prix: 30.000 fcfa/ jour</p>
+                <button onclick="window.location.href='détails-voiture.html?car=Voiture 9'">Voir les détails</button>
+                <button onclick="window.location.href='reservation.html?voiture=KIA 7P 2019'">Réserver</button>
+            </div>
+            <div class="car">
+                <img src="image/car 10 .png" alt="Voiture 10">
+                <h3>Voiture 10</h3>
+                <p>Modèle: Kia Sorento</p>
+                <p>7 Place</p>
+                <p>Année: 2019</p>
+                <p>Prix: 30.000 fcfa/ jour</p>
+                <button onclick="window.location.href='détails-voiture.html?car=Voiture 10'">Voir les détails</button>
+                <button onclick="window.location.href='reservation.html?voiture=KIA 7P 2019'">Réserver</button>
+            </div>
+            <div class="car">
+                <img src="image/car 11.png" alt="Voiture 11">
+                <h3>Voiture 11</h3>
+                <p>Modèle: BMW</p>
+                <p>4 Place</p>
+                <p>Année: 2022</p>
+                <p>Prix: 20.000 fcfa/ jour</p>
+                <button onclick="window.location.href='détails-voiture.html?car=Voiture 11'">Voir les détails</button>
+                <button onclick="window.location.href='reservation.html?voiture=BMW 4P 2022'">Réserver</button>
+            </div>
+            <div class="car">
+                <img src="image/car 12.png" alt="Voiture 12">
+                <h3>Voiture 12</h3>
+                <p>Modèle: BMW</p>
+                <p>4 Place</p>
+                <p>Année: 2023</p>
+                <p>Prix: 35.000 fcfa/ jour</p>
+                <button onclick="window.location.href='détails-voiture.html?car=Voiture 12'">Voir les détails</button>
+                <button onclick="window.location.href='reservation.html?voiture=BMW 4P 2023'">Réserver</button>
+            </div>
+            <div class="car">
+                <img src="image/car 13.png" alt="Voiture 13">
+                <h3>Voiture 13</h3>
+                <p>Modèle: BMW</p>
+                <p>4 Place</p>
+                <p>Année: 2021</p>
+                <p>Prix: 25.000 fcfa/ jour</p>
+                <button onclick="window.location.href='détails-voiture.html?car=Voiture 13'">Voir les détails</button>
+                <button onclick="window.location.href='reservation.html?voiture=BMW 4P 2021'">Réserver</button>
+            </div>
+            <div class="car">
+                <img src="image/car 14.png" alt="Voiture 14">
+                <h3>Voiture 14</h3>
+                <p>Modèle: Audi</p>
+                <p>4 Place</p>
+                <p>Année: 2020</p>
+                <p>Prix: 28.000 fcfa/ jour</p>
+                <button onclick="window.location.href='détails-voiture.html?car=Voiture 14'">Voir les détails</button>
+                <button onclick="window.location.href='reservation.html?voiture=Audi 4P 2020'">Réserver</button>
+            </div>
+            <div class="car">
+                <img src="image/car 15.png" alt="Voiture 15">
+                <h3>Voiture 15</h3>
+                <p>Modèle: Mercedes </p>
+                <p>4 Place</p>
+                <p>Année: 2020</p>
+                <p>Prix: 28.000 fcfa/ jour</p>
+                <button onclick="window.location.href='détails-voiture.html?car=Voiture 15'">Voir les détails</button>
+                <button onclick="window.location.href='reservation.html?voiture= Mercedes 4P 2020'">Réserver</button>
+            </div>
+            <div class="car">
+                <img src="image/car 16.png" alt="Voiture 16">
+                <h3>Voiture 16</h3>
+                <p>Modèle: Mercedes</p>
+                <p>2 Place</p>
+                <p>Année: 2021</p>
+                <p>Prix: 40.000 fcfa/ jour</p>
+                <button onclick="window.location.href='détails-voiture.html?car=Voiture 16'">Voir les détails</button>
+                <button onclick="window.location.href='reservation.html?voiture=Mercedes 2P 2021'">Réserver</button>
+            </div>
+            <div class="car">
+                <img src="image/car 17.png" alt="Voiture 17">
+                <h3>Voiture 17</h3>
+                <p>Modèle: Mercedes</p>
+                <p>4 Place</p>
+                <p>Année: 2022</p>
+                <p>Prix: 50.000 fcfa/ jour</p>
+                <button onclick="window.location.href='détails-voiture.html?car=Voiture 17'">Voir les détails</button>
+                <button onclick="window.location.href='reservation.html?voiture=Mercedrs 4P 2022'">Réserver</button>
+            </div>
+            <div class="car">
+                <img src="image/car 18.png" alt="Voiture 18">
+                <h3>Voiture 18</h3>
+                <p>Modèle: Mercedes</p>
+                <p>4 Place</p>
+                <p>Année: 2022</p>
+                <p>Prix: 45.000 fcfa/ jour</p>
+                <button onclick="window.location.href='détails-voiture.html?car=Voiture 18'">Voir les détails</button>
+                <button onclick="window.location.href='reservation.html?voiture=Mercedes 4P 2022 '">Réserver</button>
+            </div>
+            <div class="car">
+                <img src="image/car 19.png" alt="Voiture 19">
+                <h3>Voiture 19</h3>
+                <p>Modèle: Mercedes</p>
+                <p>4 Place</p>
+                <p>Année: 2022</p>
+                <p>Prix: 35.000 fcfa/ jour</p>
+                <button onclick="window.location.href='détails-voiture.html?car=Voiture 19'">Voir les détails</button>
+                <button onclick="window.location.href='reservation.html?voiture=Mercedes 4P 2022'">Réserver</button>
+            </div>
+            <div class="car">
+                <img src="image/car 20.png" alt="Voiture 20">
+                <h3>Voiture 20</h3>
+                <p>Modèle: Lexus</p>
+                <p>4 Place</p>
+                <p>Année: 2021</p>
+                <p>Prix: 38.000 fcfa/ jour</p>
+                <button onclick="window.location.href='détails-voiture.html?car=Voiture 20'">Voir les détails</button>
+                <button onclick="window.location.href='reservation.html?voiture=Lexus 4P 2021'">Réserver</button>
+            </div>
+            <div class="car">
+                <img src="image/car 21.png" alt="Voiture 21">
+                <h3>Voiture 21</h3>
+                <p>Modèle: Lexus</p>
+                <p>5 Place</p>
+                <p>Année: 2022</p>
+                <p>Prix: 50.000 fcfa/ jour</p>
+                <button onclick="window.location.href='détails-voiture.html?car=Voiture 21'">Voir les détails</button>
+                <button onclick="window.location.href='reservation.html?voiture=Lexus 5P 2022'">Réserver</button>
+            </div>
+            <div class="car">
+                <img src="image/car 22.png" alt="Voiture 22">
+                <h3>Voiture 22</h3>
+                <p>Modèle: Lexus</p>
+                <p>4 Place</p>
+                <p>Année: 2020</p>
+                <p>Prix: 30.000 fcfa/ jour</p>
+                <button onclick="window.location.href='détails-voiture.html?car=Voiture 22'">Voir les détails</button>
+                <button onclick="window.location.href='reservation.html?voiture=Lexus 4P 2020'">Réserver</button>
+            </div>
+            <div class="car">
+                <img src="image/car 23.png" alt="Voiture 23">
+                <h3>Voiture 23</h3>
+                <p>Modèle: Lexus</p>
+                <p>7 Place</p>
+                <p>Année: 2019</p>
+                <p>Prix: 22.000 fcfa/ jour</p>
+                <button onclick="window.location.href='détails-voiture.html?car=Voiture 23'">Voir les détails</button>
+                <button onclick="window.location.href='reservation.html?voiture=Lexus 7P 2019'">Réserver</button>
+            </div>
+            <div class="car">
+                <img src="image/car 24.png" alt="Voiture 24">
+                <h3>Voiture 24</h3>
+                <p>Modèle: Toyota Prado</p>
+                <p>4 Place</p>
+                <p>Année: 2022</p>
+                <p>Prix: 25.000 fcfa/ jour</p>
+                <button onclick="window.location.href='détails-voiture.html?car=Voiture 24'">Voir les détails</button>
+                <button onclick="window.location.href='reservation.html?voiture=Prado 4P 2022'">Réserver</button>
+            </div>
+            <div class="car">
+                <img src="image/car 25.png" alt="Voiture 25">
+                <h3>Voiture 25</h3>
+                <p>Modèle:Toyota Prado</p>
+                <p>4 Place</p>
+                <p>Année: 2024</p>
+                <p>Prix: 45.000 fcfa/ jour</p>
+                <button onclick="window.location.href='détails-voiture.html?car=Voiture 25'">Voir les détails</button>
+                <button onclick="window.location.href='reservation.html?voiture=Prado 4P 2024'">Réserver</button>
+            </div>
+            <div class="car">
+                <img src="image/car 26.png" alt="Voiture 26">
+                <h3>Voiture 26</h3>
+                <p>Modèle: Toyota Prado</p>
+                <p>4 Place</p>
+                <p>Année: 2020</p>
+                <p>Prix: 23.000 fcfa/ jour</p>
+                <button onclick="window.location.href='détails-voiture.html?car=Voiture 26'">Voir les détails</button>
+                <button onclick="window.location.href='reservation.html?voiture=Prado 4P 2020'">Réserver</button>
+            </div>
+            <div class="car">
+                <img src="image/car 27.png" alt="Voiture 27">
+                <h3>Voiture 27</h3>
+                <p>Modèle: Ford</p>
+                <p>4 Place</p>
+                <p>Année: 2023</p>
+                <p>Prix: 30.000 fcfa/ jour</p>
+                <button onclick="window.location.href='détails-voiture.html?car=Voiture 27'">Voir les détails</button>
+                <button onclick="window.location.href='reservation.html?voiture=Ford 4P 2023'">Réserver</button>
+            </div>
+            <div class="car">
+                <img src="image/car 28.png" alt="Voiture 28">
+                <h3>Voiture 28</h3>
+                <p>Modèle: Ford</p>
+                <p>4 Place</p>
+                <p>Année: 2022</p>
+                <p>Prix: 26.000 fcfa/ jour</p>
+                <button onclick="window.location.href='détails-voiture.html?car=Voiture 28'">Voir les détails</button>
+                <button onclick="window.location.href='reservation.html?voiture=Ford 4P 2022'">Réserver</button>
+            </div>
+            <div class="car">
+                <img src="image/car 29.png" alt="Voiture 29">
+                <h3>Voiture 29</h3>
+                <p>Modèle: Ford</p>
+                <p>4 Place</p>
+                <p>Année: 2021</p>
+                <p>Prix: 35.000 fcfa/ jour</p>
+                <button onclick="window.location.href='détails-voiture.html?car=Voiture 29'">Voir les détails</button>
+                <button onclick="window.location.href='reservation.html?voiture=Ford 4P 2021'">Réserver</button>
+            </div>
+            <div class="car">
+                <img src="image/car 30.png" alt="Voiture 30">
+                <h3>Voiture 30</h3>
+                <p>Modèle: Jeep Rubicon</p>
+                <p>4 Place</p>
+                <p>Année: 2022</p>
+                <p>Prix: 30.000 fcfa/ jour</p>
+                <button onclick="window.location.href='détails-voiture.html?car=Voiture 30'">Voir les détails</button>
+                <button onclick="window.location.href='reservation.html?voiture=Jeep 4P 2022'">Réserver</button>
+            </div>
+            <div class="car">
+                <img src="image/car 31.png" alt="Voiture 31">
+                <h3>Voiture 31</h3>
+                <p>Modèle: Toyota Prado</p>
+                <p>7 Place</p>
+                <p>Année: 2021</p>
+                <p>Prix: 30.000 fcfa/ jour</p>
+                <button onclick="window.location.href='détails-voiture.html?car=Voiture 31'">Voir les détails</button>
+                <button onclick="window.location.href='reservation.html?voiture=Prado 7P 2021'">Réserver</button>
+            </div>
+            <div class="car">
+                <img src="image/car 32.jpeg" alt="Voiture 32">
+                <h3>Voiture 32</h3>
+                <p>Modèle: Mercedes Benz Coupé </p>
+                <p>2 Place</p>
+                <p>Année: 2022</p>
+                <p>Prix: 25.000 fcfa/ jour</p>
+                <button onclick="window.location.href='détails-voiture.html?car=Voiture 32'">Voir les détails</button>
+                <button onclick="window.location.href='reservation.html?voiture=Mercedes coupé 2P 2022'">Réserver</button>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section about">
+                <h2>À propos de nous</h2>
+                <p>
+                    Nous sommes une société spécialisée dans la location de voitures et de villas de luxe et de qualité. 
+                    Faites confiance à notre service pour vos logement déplacements.
+                </p>
+            </div>
+            <div class="footer-section contact">
+                <h2>Contactez-nous</h2>
+                <p>Adresse: Rue 50 Adidogomé, 2004 Togo, Lomé</p>
+                <p>Téléphone: +228 70193609</p>
+                <p>Email:  clementjohnson476@gmail.com</p>
+            </div>
+            <div class="footer-section social">
+                <h2>Suivez-nous</h2>
+                <a href="#">Facebook</a> | 
+                <a href="#">Instagram</a> | 
+                <a href="#">Twitter</a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            &copy; 2024 LocaHouse.com | Tous droits réservés
+        </div>
+    </footer>
+    
+
+</body>
+</html>

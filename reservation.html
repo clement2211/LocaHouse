@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LocaHouse</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="image/favicon.svg" type="image/svg+xml" sizes="any">
+    <link rel="icon" href="image/favicon.png" sizes="32x32" type="image/png">
+</head>
+<body>
+    <header>
+        <nav style="display: flex; align-items: center; justify-content: space-between;"> 
+            <div style="flex: 1;">
+                <img src="image/logo.svg" alt="Logo" style="height: 100px;"> <!-- Logo placé à gauche -->
+            </div>
+            <h1 style="flex: 2; text-align: center;">
+                Formulaire de Réservation
+            </h1>
+            <div style="flex: 1; text-align: right;">
+                <a href="index.html">Voiture</a>
+                <a href="contact.html">Contact</a>
+                <a href="maison.html">Maison</a>
+            </div>
+        </nav>
+    </header>
+
+    <section id="reservation-form">
+        <h2>Réservation  <span id="car-name"></span></h2>
+        <form id="form">
+            <label for="name">Nom:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="phone">Numéro de téléphone:</label>
+            <input type="tel" id="phone" name="phone" required>
+
+            <label for="start-date">Date de début:</label>
+            <input type="date" id="start-date" name="start-date" required>
+
+            <label for="end-date">Date de fin:</label>
+            <input type="date" id="end-date" name="end-date" required>
+
+            <label for="send-method">Méthode d'envoi:</label>
+            <select id="send-method" name="send-method" required>
+                <option value="whatsapp">Envoyer via WhatsApp</option>
+                <option value="email">Envoyer par Email</option>
+                <option value="telegram">Envoyer via Telegram</option>
+            </select>
+
+            <button type="submit">Envoyer</button>
+        </form>
+    </section>
+    
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section about">
+                <h2>À propos de nous</h2>
+                <p>
+                    Nous sommes une société spécialisée dans la location de voitures et de villas de luxe et de qualité. 
+                    Faites confiance à notre service pour vos logement déplacements.
+                </p>
+            </div>
+            <div class="footer-section contact">
+                <h2>Contactez-nous</h2>
+                <p>Adresse: Rue 50 Adidogomé, 2004 Togo, Lomé</p>
+                <p>Téléphone: +228 70193609</p>
+                <p>Email:  clementjohnson476@gmail.com</p>
+            </div>
+            <div class="footer-section social">
+                <h2>Suivez-nous</h2>
+                <a href="#">Facebook</a> | 
+                <a href="#">Instagram</a> | 
+                <a href="#">Twitter</a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            &copy; 2024 LocaHouse.com | Tous droits réservés
+        </div>
+    </footer>
+    
+
+    <script src="reservation.js"></script>
+</body>
+</html>

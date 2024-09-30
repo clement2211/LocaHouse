@@ -1,0 +1,661 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LocaHouse</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="image/favicon.svg" type="image/svg+xml" sizes="any">
+</head>
+<body>
+    <header>
+      <nav style="display: flex; align-items: center; justify-content: space-between;"> 
+        <div style="flex: 1;">
+            <img src="image/logo.svg" alt="Logo" style="height: 100px;"> <!-- Logo placé à gauche -->
+        </div>
+        <h1 style="flex: 2; text-align: center;">
+                    Détails des Villas
+
+        </h1>
+        <div style="flex: 1; text-align: right;">
+            <a href="index.html">Accueil</a>
+            <a href="maison.html">Maison</a>
+            <a href="contact.html">Contact</a>
+        </div>
+    </nav>
+    </header>
+
+    <body>
+
+        <article>
+            <h2>Villa: <span id="villa-name1">Villa Luxe</span></h2>
+            <div class="villa-gallery">
+                <img src="image/m 1.jpeg" alt="Villa Luxe">
+                <img src="image/m 2.jpeg" alt="Villa Luxe">
+                <img src="image/m 3.jpeg" alt="Villa Luxe">
+                <img src="image/m 4.jpeg" alt="villa Luxe">
+            </div>
+            <div class="villa-details">
+                <h3>Informations</h3>
+                <p><strong>Nom:</strong> Villa Luxe</p>
+                <p><strong>Emplacement:</strong> Togoville</p>
+                <p><strong>Chambres:</strong> 7</p>
+                <p><strong>Prix par nuit:</strong> 50.000 fcfa</p>
+                <p><strong>Description:</strong> Une villa moderne avec piscine à débordement et vue sur la mer.</p>
+            </div>
+            <button onclick="window.location.href='reservation.html?voiture=villa Luxe'">Réserver</button>
+        </article>
+    
+        <article>
+            <h2>Villa: <span id="villa-name2">Villa Nature</span></h2>
+            <div class="villa-gallery">
+                <img src="image/m 5.jpeg" alt="villa Nature">
+                <img src="image/m 6.jpeg" alt="villa Nature">
+                <img src="image/m 7.jpeg" alt="villa Nature">
+                <img src="image/m 8.jpeg" alt="villa Nature">
+            </div>
+            <div class="villa-details">
+                <h3>Informations</h3>
+                <p><strong>Nom:</strong> Villa Nature</p>
+                <p><strong>Emplacement:</strong> Agoé</p>
+                <p><strong>Chambres:</strong> 10</p>
+                <p><strong>Prix par nuit:</strong> 80.000 fcfa</p>
+                <p><strong>Description:</strong> Une villa chaleureuse au cœur de la nature, parfaite pour des vacances en famille.</p>
+            </div>
+            <button onclick="window.location.href='reservation.html?voiture=villa Nature'">Réserver</button>
+        </article>
+    
+        <article>
+            <h2>Villa: <span id="villa-name3">Villa Beach</span></h2>
+            <div class="villa-gallery">
+                <img src="image/m 9.jpeg" alt="Villa Beach">
+                <img src="image/m 10.jpeg" alt="Villa Beach">
+                <img src="image/m 11.jpeg" alt="Villa Beach">
+                <img src="image/m 12.jpeg" alt="Villa Beach">
+            </div>
+            <div class="villa-details">
+                <h3>Informations</h3>
+                <p><strong>Nom:</strong> Villa Beach</p>
+                <p><strong>Emplacement:</strong> senguéra</p>
+                <p><strong>Chambres:</strong> 5</p>
+                <p><strong>Prix par nuit:</strong> 20.000 fcfa</p>
+                <p><strong>Description:</strong> Une villa luxueuse à deux pas de la plage avec toutes les commodités.</p>
+            </div>
+            <button onclick="window.location.href='reservation.html?voiture=villa Beach'">Réserver</button>
+        </article>
+    
+        <article>
+            <h2>Villa: <span id="villa-name4">Villa Montagne</span></h2>
+            <div class="villa-gallery">
+                <img src="image/m 13.jpeg" alt="Villa Montagne">
+                <img src="image/m 14.jpeg" alt="Villa Montagne">
+                <img src="image/m 15.jpeg" alt="Villa Montagne">
+                <img src="image/m 16.jpeg" alt="Villa Montagne">
+            </div>
+            <div class="villa-details">
+                <h3>Informations</h3>
+                <p><strong>Nom:</strong> Villa Montagne</p>
+                <p><strong>Emplacement:</strong> Mont Blanc</p>
+                <p><strong>Chambres:</strong> 6</p>
+                <p><strong>Prix par nuit:</strong> 30.000 fcfa</p>
+                <p><strong>Description:</strong> Une villa spacieuse avec cheminée, idéale pour des retraites hivernales.</p>
+            </div>
+            <button onclick="window.location.href='reservation.html?voiture=villa Montagne'">Réserver</button>
+        </article>
+    
+        <article>
+            <h2>Villa: <span id="villa-name5">Villa Familiale</span></h2>
+            <div class="villa-gallery">
+                <img src="image/m 17.jpeg" alt="Villa Familiale">
+                <img src="image/m 18.jpeg" alt="Villa Familiale">
+                <img src="image/m 19.jpeg" alt="Villa Familiale">
+                <img src="image/m 20.jpeg" alt="Villa Familiale">
+            </div>
+            <div class="villa-details">
+                <h3>Informations</h3>
+                <p><strong>Nom:</strong> Villa Familiale</p>
+                <p><strong>Emplacement:</strong> Provence</p>
+                <p><strong>Chambres:</strong> 4</p>
+                <p><strong>Prix par nuit:</strong> 30.000 fcfa</p>
+                <p><strong>Description:</strong> Une villa accueillante avec jardin et espace barbecue pour des vacances en famille.</p>
+            </div>
+            <button onclick="window.location.href='reservation.html?voiture=villa Familiale'">Réserver</button>
+        </article>        
+        <article>
+            <h2>Villa: <span id="villa-name1">Villa Luxe</span></h2>
+            <div class="villa-gallery">
+                <img src="image/m 1.jpeg" alt="Villa Luxe">
+                <img src="image/m 2.jpeg" alt="Villa Luxe">
+                <img src="image/m 3.jpeg" alt="Villa Luxe">
+                <img src="image/m 4.jpeg" alt="villa Luxe">
+            </div>
+            <div class="villa-details">
+                <h3>Informations</h3>
+                <p><strong>Nom:</strong> Villa Luxe</p>
+                <p><strong>Emplacement:</strong> Togoville</p>
+                <p><strong>Chambres:</strong> 7</p>
+                <p><strong>Prix par nuit:</strong> 50.000 fcfa</p>
+                <p><strong>Description:</strong> Une villa moderne avec piscine à débordement et vue sur la mer.</p>
+            </div>
+            <button onclick="window.location.href='reservation.html?voiture=villa Luxe'">Réserver</button>
+        </article>
+    
+        <article>
+            <h2>Villa: <span id="villa-name2">Villa Nature</span></h2>
+            <div class="villa-gallery">
+                <img src="image/m 5.jpeg" alt="villa Nature">
+                <img src="image/m 6.jpeg" alt="villa Nature">
+                <img src="image/m 7.jpeg" alt="villa Nature">
+                <img src="image/m 8.jpeg" alt="villa Nature">
+            </div>
+            <div class="villa-details">
+                <h3>Informations</h3>
+                <p><strong>Nom:</strong> Villa Nature</p>
+                <p><strong>Emplacement:</strong> Agoé</p>
+                <p><strong>Chambres:</strong> 10</p>
+                <p><strong>Prix par nuit:</strong> 80.000 fcfa</p>
+                <p><strong>Description:</strong> Une villa chaleureuse au cœur de la nature, parfaite pour des vacances en famille.</p>
+            </div>
+            <button onclick="window.location.href='reservation.html?voiture=villa Nature'">Réserver</button>
+        </article>
+    
+        <article>
+            <h2>Villa: <span id="villa-name3">Villa Beach</span></h2>
+            <div class="villa-gallery">
+                <img src="image/m 9.jpeg" alt="Villa Beach">
+                <img src="image/m 10.jpeg" alt="Villa Beach">
+                <img src="image/m 11.jpeg" alt="Villa Beach">
+                <img src="image/m 12.jpeg" alt="Villa Beach">
+            </div>
+            <div class="villa-details">
+                <h3>Informations</h3>
+                <p><strong>Nom:</strong> Villa Beach</p>
+                <p><strong>Emplacement:</strong> senguéra</p>
+                <p><strong>Chambres:</strong> 5</p>
+                <p><strong>Prix par nuit:</strong> 20.000 fcfa</p>
+                <p><strong>Description:</strong> Une villa luxueuse à deux pas de la plage avec toutes les commodités.</p>
+            </div>
+            <button onclick="window.location.href='reservation.html?voiture=villa Beach'">Réserver</button>
+        </article>
+    
+        <article>
+            <h2>Villa: <span id="villa-name4">Villa Montagne</span></h2>
+            <div class="villa-gallery">
+                <img src="image/m 13.jpeg" alt="Villa Montagne">
+                <img src="image/m 14.jpeg" alt="Villa Montagne">
+                <img src="image/m 15.jpeg" alt="Villa Montagne">
+                <img src="image/m 16.jpeg" alt="Villa Montagne">
+            </div>
+            <div class="villa-details">
+                <h3>Informations</h3>
+                <p><strong>Nom:</strong> Villa Montagne</p>
+                <p><strong>Emplacement:</strong> Mont Blanc</p>
+                <p><strong>Chambres:</strong> 6</p>
+                <p><strong>Prix par nuit:</strong> 30.000 fcfa</p>
+                <p><strong>Description:</strong> Une villa spacieuse avec cheminée, idéale pour des retraites hivernales.</p>
+            </div>
+            <button onclick="window.location.href='reservation.html?voiture=villa Montagne'">Réserver</button>
+        </article>
+    
+        <article>
+            <h2>Villa: <span id="villa-name5">Villa Familiale</span></h2>
+            <div class="villa-gallery">
+                <img src="image/m 17.jpeg" alt="Villa Familiale">
+                <img src="image/m 18.jpeg" alt="Villa Familiale">
+                <img src="image/m 19.jpeg" alt="Villa Familiale">
+                <img src="image/m 20.jpeg" alt="Villa Familiale">
+            </div>
+            <div class="villa-details">
+                <h3>Informations</h3>
+                <p><strong>Nom:</strong> Villa Familiale</p>
+                <p><strong>Emplacement:</strong> Provence</p>
+                <p><strong>Chambres:</strong> 4</p>
+                <p><strong>Prix par nuit:</strong> 30.000 fcfa</p>
+                <p><strong>Description:</strong> Une villa accueillante avec jardin et espace barbecue pour des vacances en famille.</p>
+            </div>
+            <button onclick="window.location.href='reservation.html?voiture=villa Familiale'">Réserver</button>
+        </article>        
+        <article>
+            <h2>Villa: <span id="villa-name1">Villa Luxe</span></h2>
+            <div class="villa-gallery">
+                <img src="image/m 1.jpeg" alt="Villa Luxe">
+                <img src="image/m 2.jpeg" alt="Villa Luxe">
+                <img src="image/m 3.jpeg" alt="Villa Luxe">
+                <img src="image/m 4.jpeg" alt="villa Luxe">
+            </div>
+            <div class="villa-details">
+                <h3>Informations</h3>
+                <p><strong>Nom:</strong> Villa Luxe</p>
+                <p><strong>Emplacement:</strong> Togoville</p>
+                <p><strong>Chambres:</strong> 7</p>
+                <p><strong>Prix par nuit:</strong> 50.000 fcfa</p>
+                <p><strong>Description:</strong> Une villa moderne avec piscine à débordement et vue sur la mer.</p>
+            </div>
+            <button onclick="window.location.href='reservation.html?voiture=villa Luxe'">Réserver</button>
+        </article>
+    
+        <article>
+            <h2>Villa: <span id="villa-name2">Villa Nature</span></h2>
+            <div class="villa-gallery">
+                <img src="image/m 5.jpeg" alt="villa Nature">
+                <img src="image/m 6.jpeg" alt="villa Nature">
+                <img src="image/m 7.jpeg" alt="villa Nature">
+                <img src="image/m 8.jpeg" alt="villa Nature">
+            </div>
+            <div class="villa-details">
+                <h3>Informations</h3>
+                <p><strong>Nom:</strong> Villa Nature</p>
+                <p><strong>Emplacement:</strong> Agoé</p>
+                <p><strong>Chambres:</strong> 10</p>
+                <p><strong>Prix par nuit:</strong> 80.000 fcfa</p>
+                <p><strong>Description:</strong> Une villa chaleureuse au cœur de la nature, parfaite pour des vacances en famille.</p>
+            </div>
+            <button onclick="window.location.href='reservation.html?voiture=villa Nature'">Réserver</button>
+        </article>
+    
+        <article>
+            <h2>Villa: <span id="villa-name3">Villa Beach</span></h2>
+            <div class="villa-gallery">
+                <img src="image/m 9.jpeg" alt="Villa Beach">
+                <img src="image/m 10.jpeg" alt="Villa Beach">
+                <img src="image/m 11.jpeg" alt="Villa Beach">
+                <img src="image/m 12.jpeg" alt="Villa Beach">
+            </div>
+            <div class="villa-details">
+                <h3>Informations</h3>
+                <p><strong>Nom:</strong> Villa Beach</p>
+                <p><strong>Emplacement:</strong> senguéra</p>
+                <p><strong>Chambres:</strong> 5</p>
+                <p><strong>Prix par nuit:</strong> 20.000 fcfa</p>
+                <p><strong>Description:</strong> Une villa luxueuse à deux pas de la plage avec toutes les commodités.</p>
+            </div>
+            <button onclick="window.location.href='reservation.html?voiture=villa Beach'">Réserver</button>
+        </article>
+    
+        <article>
+            <h2>Villa: <span id="villa-name4">Villa Montagne</span></h2>
+            <div class="villa-gallery">
+                <img src="image/m 13.jpeg" alt="Villa Montagne">
+                <img src="image/m 14.jpeg" alt="Villa Montagne">
+                <img src="image/m 15.jpeg" alt="Villa Montagne">
+                <img src="image/m 16.jpeg" alt="Villa Montagne">
+            </div>
+            <div class="villa-details">
+                <h3>Informations</h3>
+                <p><strong>Nom:</strong> Villa Montagne</p>
+                <p><strong>Emplacement:</strong> Mont Blanc</p>
+                <p><strong>Chambres:</strong> 6</p>
+                <p><strong>Prix par nuit:</strong> 30.000 fcfa</p>
+                <p><strong>Description:</strong> Une villa spacieuse avec cheminée, idéale pour des retraites hivernales.</p>
+            </div>
+            <button onclick="window.location.href='reservation.html?voiture=villa Montagne'">Réserver</button>
+        </article>
+    
+        <article>
+            <h2>Villa: <span id="villa-name5">Villa Familiale</span></h2>
+            <div class="villa-gallery">
+                <img src="image/m 17.jpeg" alt="Villa Familiale">
+                <img src="image/m 18.jpeg" alt="Villa Familiale">
+                <img src="image/m 19.jpeg" alt="Villa Familiale">
+                <img src="image/m 20.jpeg" alt="Villa Familiale">
+            </div>
+            <div class="villa-details">
+                <h3>Informations</h3>
+                <p><strong>Nom:</strong> Villa Familiale</p>
+                <p><strong>Emplacement:</strong> Provence</p>
+                <p><strong>Chambres:</strong> 4</p>
+                <p><strong>Prix par nuit:</strong> 30.000 fcfa</p>
+                <p><strong>Description:</strong> Une villa accueillante avec jardin et espace barbecue pour des vacances en famille.</p>
+            </div>
+            <button onclick="window.location.href='reservation.html?voiture=villa Familiale'">Réserver</button>
+        </article>        
+        <article>
+            <h2>Villa: <span id="villa-name1">Villa Luxe</span></h2>
+            <div class="villa-gallery">
+                <img src="image/m 1.jpeg" alt="Villa Luxe">
+                <img src="image/m 2.jpeg" alt="Villa Luxe">
+                <img src="image/m 3.jpeg" alt="Villa Luxe">
+                <img src="image/m 4.jpeg" alt="villa Luxe">
+            </div>
+            <div class="villa-details">
+                <h3>Informations</h3>
+                <p><strong>Nom:</strong> Villa Luxe</p>
+                <p><strong>Emplacement:</strong> Togoville</p>
+                <p><strong>Chambres:</strong> 7</p>
+                <p><strong>Prix par nuit:</strong> 50.000 fcfa</p>
+                <p><strong>Description:</strong> Une villa moderne avec piscine à débordement et vue sur la mer.</p>
+            </div>
+            <button onclick="window.location.href='reservation.html?voiture=villa Luxe'">Réserver</button>
+        </article>
+    
+        <article>
+            <h2>Villa: <span id="villa-name2">Villa Nature</span></h2>
+            <div class="villa-gallery">
+                <img src="image/m 5.jpeg" alt="villa Nature">
+                <img src="image/m 6.jpeg" alt="villa Nature">
+                <img src="image/m 7.jpeg" alt="villa Nature">
+                <img src="image/m 8.jpeg" alt="villa Nature">
+            </div>
+            <div class="villa-details">
+                <h3>Informations</h3>
+                <p><strong>Nom:</strong> Villa Nature</p>
+                <p><strong>Emplacement:</strong> Agoé</p>
+                <p><strong>Chambres:</strong> 10</p>
+                <p><strong>Prix par nuit:</strong> 80.000 fcfa</p>
+                <p><strong>Description:</strong> Une villa chaleureuse au cœur de la nature, parfaite pour des vacances en famille.</p>
+            </div>
+            <button onclick="window.location.href='reservation.html?voiture=villa Nature'">Réserver</button>
+        </article>
+    
+        <article>
+            <h2>Villa: <span id="villa-name3">Villa Beach</span></h2>
+            <div class="villa-gallery">
+                <img src="image/m 9.jpeg" alt="Villa Beach">
+                <img src="image/m 10.jpeg" alt="Villa Beach">
+                <img src="image/m 11.jpeg" alt="Villa Beach">
+                <img src="image/m 12.jpeg" alt="Villa Beach">
+            </div>
+            <div class="villa-details">
+                <h3>Informations</h3>
+                <p><strong>Nom:</strong> Villa Beach</p>
+                <p><strong>Emplacement:</strong> senguéra</p>
+                <p><strong>Chambres:</strong> 5</p>
+                <p><strong>Prix par nuit:</strong> 20.000 fcfa</p>
+                <p><strong>Description:</strong> Une villa luxueuse à deux pas de la plage avec toutes les commodités.</p>
+            </div>
+            <button onclick="window.location.href='reservation.html?voiture=villa Beach'">Réserver</button>
+        </article>
+    
+        <article>
+            <h2>Villa: <span id="villa-name4">Villa Montagne</span></h2>
+            <div class="villa-gallery">
+                <img src="image/m 13.jpeg" alt="Villa Montagne">
+                <img src="image/m 14.jpeg" alt="Villa Montagne">
+                <img src="image/m 15.jpeg" alt="Villa Montagne">
+                <img src="image/m 16.jpeg" alt="Villa Montagne">
+            </div>
+            <div class="villa-details">
+                <h3>Informations</h3>
+                <p><strong>Nom:</strong> Villa Montagne</p>
+                <p><strong>Emplacement:</strong> Mont Blanc</p>
+                <p><strong>Chambres:</strong> 6</p>
+                <p><strong>Prix par nuit:</strong> 30.000 fcfa</p>
+                <p><strong>Description:</strong> Une villa spacieuse avec cheminée, idéale pour des retraites hivernales.</p>
+            </div>
+            <button onclick="window.location.href='reservation.html?voiture=villa Montagne'">Réserver</button>
+        </article>
+    
+        <article>
+            <h2>Villa: <span id="villa-name5">Villa Familiale</span></h2>
+            <div class="villa-gallery">
+                <img src="image/m 17.jpeg" alt="Villa Familiale">
+                <img src="image/m 18.jpeg" alt="Villa Familiale">
+                <img src="image/m 19.jpeg" alt="Villa Familiale">
+                <img src="image/m 20.jpeg" alt="Villa Familiale">
+            </div>
+            <div class="villa-details">
+                <h3>Informations</h3>
+                <p><strong>Nom:</strong> Villa Familiale</p>
+                <p><strong>Emplacement:</strong> Provence</p>
+                <p><strong>Chambres:</strong> 4</p>
+                <p><strong>Prix par nuit:</strong> 30.000 fcfa</p>
+                <p><strong>Description:</strong> Une villa accueillante avec jardin et espace barbecue pour des vacances en famille.</p>
+            </div>
+            <button onclick="window.location.href='reservation.html?voiture=villa Familiale'">Réserver</button>
+        </article>        
+        <article>
+            <h2>Villa: <span id="villa-name1">Villa Luxe</span></h2>
+            <div class="villa-gallery">
+                <img src="image/m 1.jpeg" alt="Villa Luxe">
+                <img src="image/m 2.jpeg" alt="Villa Luxe">
+                <img src="image/m 3.jpeg" alt="Villa Luxe">
+                <img src="image/m 4.jpeg" alt="villa Luxe">
+            </div>
+            <div class="villa-details">
+                <h3>Informations</h3>
+                <p><strong>Nom:</strong> Villa Luxe</p>
+                <p><strong>Emplacement:</strong> Togoville</p>
+                <p><strong>Chambres:</strong> 7</p>
+                <p><strong>Prix par nuit:</strong> 50.000 fcfa</p>
+                <p><strong>Description:</strong> Une villa moderne avec piscine à débordement et vue sur la mer.</p>
+            </div>
+            <button onclick="window.location.href='reservation.html?voiture=villa Luxe'">Réserver</button>
+        </article>
+    
+        <article>
+            <h2>Villa: <span id="villa-name2">Villa Nature</span></h2>
+            <div class="villa-gallery">
+                <img src="image/m 5.jpeg" alt="villa Nature">
+                <img src="image/m 6.jpeg" alt="villa Nature">
+                <img src="image/m 7.jpeg" alt="villa Nature">
+                <img src="image/m 8.jpeg" alt="villa Nature">
+            </div>
+            <div class="villa-details">
+                <h3>Informations</h3>
+                <p><strong>Nom:</strong> Villa Nature</p>
+                <p><strong>Emplacement:</strong> Agoé</p>
+                <p><strong>Chambres:</strong> 10</p>
+                <p><strong>Prix par nuit:</strong> 80.000 fcfa</p>
+                <p><strong>Description:</strong> Une villa chaleureuse au cœur de la nature, parfaite pour des vacances en famille.</p>
+            </div>
+            <button onclick="window.location.href='reservation.html?voiture=villa Nature'">Réserver</button>
+        </article>
+    
+        <article>
+            <h2>Villa: <span id="villa-name3">Villa Beach</span></h2>
+            <div class="villa-gallery">
+                <img src="image/m 9.jpeg" alt="Villa Beach">
+                <img src="image/m 10.jpeg" alt="Villa Beach">
+                <img src="image/m 11.jpeg" alt="Villa Beach">
+                <img src="image/m 12.jpeg" alt="Villa Beach">
+            </div>
+            <div class="villa-details">
+                <h3>Informations</h3>
+                <p><strong>Nom:</strong> Villa Beach</p>
+                <p><strong>Emplacement:</strong> senguéra</p>
+                <p><strong>Chambres:</strong> 5</p>
+                <p><strong>Prix par nuit:</strong> 20.000 fcfa</p>
+                <p><strong>Description:</strong> Une villa luxueuse à deux pas de la plage avec toutes les commodités.</p>
+            </div>
+            <button onclick="window.location.href='reservation.html?voiture=villa Beach'">Réserver</button>
+        </article>
+    
+        <article>
+            <h2>Villa: <span id="villa-name4">Villa Montagne</span></h2>
+            <div class="villa-gallery">
+                <img src="image/m 13.jpeg" alt="Villa Montagne">
+                <img src="image/m 14.jpeg" alt="Villa Montagne">
+                <img src="image/m 15.jpeg" alt="Villa Montagne">
+                <img src="image/m 16.jpeg" alt="Villa Montagne">
+            </div>
+            <div class="villa-details">
+                <h3>Informations</h3>
+                <p><strong>Nom:</strong> Villa Montagne</p>
+                <p><strong>Emplacement:</strong> Mont Blanc</p>
+                <p><strong>Chambres:</strong> 6</p>
+                <p><strong>Prix par nuit:</strong> 30.000 fcfa</p>
+                <p><strong>Description:</strong> Une villa spacieuse avec cheminée, idéale pour des retraites hivernales.</p>
+            </div>
+            <button onclick="window.location.href='reservation.html?voiture=villa Montagne'">Réserver</button>
+        </article>
+    
+        <article>
+            <h2>Villa: <span id="villa-name5">Villa Familiale</span></h2>
+            <div class="villa-gallery">
+                <img src="image/m 17.jpeg" alt="Villa Familiale">
+                <img src="image/m 18.jpeg" alt="Villa Familiale">
+                <img src="image/m 19.jpeg" alt="Villa Familiale">
+                <img src="image/m 20.jpeg" alt="Villa Familiale">
+            </div>
+            <div class="villa-details">
+                <h3>Informations</h3>
+                <p><strong>Nom:</strong> Villa Familiale</p>
+                <p><strong>Emplacement:</strong> Provence</p>
+                <p><strong>Chambres:</strong> 4</p>
+                <p><strong>Prix par nuit:</strong> 30.000 fcfa</p>
+                <p><strong>Description:</strong> Une villa accueillante avec jardin et espace barbecue pour des vacances en famille.</p>
+            </div>
+            <button onclick="window.location.href='reservation.html?voiture=villa Familiale'">Réserver</button>
+        </article>        
+        <article>
+            <h2>Villa: <span id="villa-name1">Villa Luxe</span></h2>
+            <div class="villa-gallery">
+                <img src="image/m 1.jpeg" alt="Villa Luxe">
+                <img src="image/m 2.jpeg" alt="Villa Luxe">
+                <img src="image/m 3.jpeg" alt="Villa Luxe">
+                <img src="image/m 4.jpeg" alt="villa Luxe">
+            </div>
+            <div class="villa-details">
+                <h3>Informations</h3>
+                <p><strong>Nom:</strong> Villa Luxe</p>
+                <p><strong>Emplacement:</strong> Togoville</p>
+                <p><strong>Chambres:</strong> 7</p>
+                <p><strong>Prix par nuit:</strong> 50.000 fcfa</p>
+                <p><strong>Description:</strong> Une villa moderne avec piscine à débordement et vue sur la mer.</p>
+            </div>
+            <button onclick="window.location.href='reservation.html?voiture=villa Luxe'">Réserver</button>
+        </article>
+    
+        <article>
+            <h2>Villa: <span id="villa-name2">Villa Nature</span></h2>
+            <div class="villa-gallery">
+                <img src="image/m 5.jpeg" alt="villa Nature">
+                <img src="image/m 6.jpeg" alt="villa Nature">
+                <img src="image/m 7.jpeg" alt="villa Nature">
+                <img src="image/m 8.jpeg" alt="villa Nature">
+            </div>
+            <div class="villa-details">
+                <h3>Informations</h3>
+                <p><strong>Nom:</strong> Villa Nature</p>
+                <p><strong>Emplacement:</strong> Agoé</p>
+                <p><strong>Chambres:</strong> 10</p>
+                <p><strong>Prix par nuit:</strong> 80.000 fcfa</p>
+                <p><strong>Description:</strong> Une villa chaleureuse au cœur de la nature, parfaite pour des vacances en famille.</p>
+            </div>
+            <button onclick="window.location.href='reservation.html?voiture=villa Nature'">Réserver</button>
+        </article>
+    
+        <article>
+            <h2>Villa: <span id="villa-name3">Villa Beach</span></h2>
+            <div class="villa-gallery">
+                <img src="image/m 9.jpeg" alt="Villa Beach">
+                <img src="image/m 10.jpeg" alt="Villa Beach">
+                <img src="image/m 11.jpeg" alt="Villa Beach">
+                <img src="image/m 12.jpeg" alt="Villa Beach">
+            </div>
+            <div class="villa-details">
+                <h3>Informations</h3>
+                <p><strong>Nom:</strong> Villa Beach</p>
+                <p><strong>Emplacement:</strong> senguéra</p>
+                <p><strong>Chambres:</strong> 5</p>
+                <p><strong>Prix par nuit:</strong> 20.000 fcfa</p>
+                <p><strong>Description:</strong> Une villa luxueuse à deux pas de la plage avec toutes les commodités.</p>
+            </div>
+            <button onclick="window.location.href='reservation.html?voiture=villa Beach'">Réserver</button>
+        </article>
+    
+        <article>
+            <h2>Villa: <span id="villa-name4">Villa Montagne</span></h2>
+            <div class="villa-gallery">
+                <img src="image/m 13.jpeg" alt="Villa Montagne">
+                <img src="image/m 14.jpeg" alt="Villa Montagne">
+                <img src="image/m 15.jpeg" alt="Villa Montagne">
+                <img src="image/m 16.jpeg" alt="Villa Montagne">
+            </div>
+            <div class="villa-details">
+                <h3>Informations</h3>
+                <p><strong>Nom:</strong> Villa Montagne</p>
+                <p><strong>Emplacement:</strong> Mont Blanc</p>
+                <p><strong>Chambres:</strong> 6</p>
+                <p><strong>Prix par nuit:</strong> 30.000 fcfa</p>
+                <p><strong>Description:</strong> Une villa spacieuse avec cheminée, idéale pour des retraites hivernales.</p>
+            </div>
+            <button onclick="window.location.href='reservation.html?voiture=villa Montagne'">Réserver</button>
+        </article>
+    
+        <article>
+            <h2>Villa: <span id="villa-name5">Villa Familiale</span></h2>
+            <div class="villa-gallery">
+                <img src="image/m 17.jpeg" alt="Villa Familiale">
+                <img src="image/m 18.jpeg" alt="Villa Familiale">
+                <img src="image/m 19.jpeg" alt="Villa Familiale">
+                <img src="image/m 20.jpeg" alt="Villa Familiale">
+            </div>
+            <div class="villa-details">
+                <h3>Informations</h3>
+                <p><strong>Nom:</strong> Villa Familiale</p>
+                <p><strong>Emplacement:</strong> Provence</p>
+                <p><strong>Chambres:</strong> 4</p>
+                <p><strong>Prix par nuit:</strong> 30.000 fcfa</p>
+                <p><strong>Description:</strong> Une villa accueillante avec jardin et espace barbecue pour des vacances en famille.</p>
+            </div>
+            <button onclick="window.location.href='reservation.html?voiture=villa Familiale'">Réserver</button>
+        </article>        
+        <article>
+            <h2>Villa: <span id="villa-name4">Villa Montagne</span></h2>
+            <div class="villa-gallery">
+                <img src="image/m 13.jpeg" alt="Villa Montagne">
+                <img src="image/m 14.jpeg" alt="Villa Montagne">
+                <img src="image/m 15.jpeg" alt="Villa Montagne">
+                <img src="image/m 16.jpeg" alt="Villa Montagne">
+            </div>
+            <div class="villa-details">
+                <h3>Informations</h3>
+                <p><strong>Nom:</strong> Villa Montagne</p>
+                <p><strong>Emplacement:</strong> Mont Blanc</p>
+                <p><strong>Chambres:</strong> 6</p>
+                <p><strong>Prix par nuit:</strong> 30.000 fcfa</p>
+                <p><strong>Description:</strong> Une villa spacieuse avec cheminée, idéale pour des retraites hivernales.</p>
+            </div>
+            <button onclick="window.location.href='reservation.html?voiture=villa Montagne'">Réserver</button>
+        </article>
+    
+        <article>
+            <h2>Villa: <span id="villa-name5">Villa Familiale</span></h2>
+            <div class="villa-gallery">
+                <img src="image/m 17.jpeg" alt="Villa Familiale">
+                <img src="image/m 18.jpeg" alt="Villa Familiale">
+                <img src="image/m 19.jpeg" alt="Villa Familiale">
+                <img src="image/m 20.jpeg" alt="Villa Familiale">
+            </div>
+            <div class="villa-details">
+                <h3>Informations</h3>
+                <p><strong>Nom:</strong> Villa Familiale</p>
+                <p><strong>Emplacement:</strong> Provence</p>
+                <p><strong>Chambres:</strong> 4</p>
+                <p><strong>Prix par nuit:</strong> 30.000 fcfa</p>
+                <p><strong>Description:</strong> Une villa accueillante avec jardin et espace barbecue pour des vacances en famille.</p>
+            </div>
+            <button onclick="window.location.href='reservation.html?voiture=villa Familiale'">Réserver</button>
+        </article>        
+       
+    
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section about">
+                <h2>À propos de nous</h2>
+                <p>
+                    Nous sommes une société spécialisée dans la location de voitures et de villas de luxe et de qualité. 
+                    Faites confiance à notre service pour vos logement déplacements.
+                </p>
+            </div>
+            <div class="footer-section contact">
+                <h2>Contactez-nous</h2>
+                <p>Adresse: Rue 50 Adidogomé, 2004 Togo, Lomé</p>
+                <p>Téléphone: +228 70193609</p>
+                <p>Email:  clementjohnson476@gmail.com</p>
+            </div>
+            <div class="footer-section social">
+                <h2>Suivez-nous</h2>
+                <a href="#">Facebook</a> | 
+                <a href="#">Instagram</a> | 
+                <a href="#">Twitter</a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            &copy; 2024 LocaHouse.com | Tous droits réservés
+        </div>
+    </footer>
+    
+    </body>
+    </html>
